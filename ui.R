@@ -1,3 +1,5 @@
+library(scales)
+
 gy_green  <- "#009E49"
 gy_gold   <- "#FFD100"
 gy_red    <- "#CE1126"
@@ -184,7 +186,7 @@ ui <- fluidPage(
 
   # Header
   div(class = "app-header",
-    h1("\U0001F1EC\U0001F1FE  Guyana National Census"),
+    h1("Guyana National Census"),
     div(class = "subtitle", "Population & Housing Census \u2022 2012 & 2022 \u2022 Bureau of Statistics"),
     div(class = "flag-bar")
   ),
